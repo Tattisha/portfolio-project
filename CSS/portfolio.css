@@ -68,6 +68,7 @@ p {
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
+    line-height: 1.2;
   }
   h2 {
     font-size: 44px;
