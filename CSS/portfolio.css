@@ -23,7 +23,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -35,7 +35,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -51,7 +51,7 @@ p {
   line-height: 1.5;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -80,6 +80,10 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  background: var(--branding-color);
+  color: black;
+}
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -87,6 +91,10 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+  color: black;
+  border: 1px solid var(--branding-color);
 }
 .project-description {
   padding: 120px 60px;
@@ -127,6 +135,9 @@ footer .contact-box {
   padding: 30px 120px;
   border-radius: 18px;
 }
+footer .contact-box h3 {
+  font-size: 48px;
+}
 
 footer .contact-box p {
   margin: 0;
@@ -165,15 +176,12 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
   .project-description {
     padding: 0;
     text-align: center;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .content {
     text-align: center;
